@@ -37,3 +37,25 @@ section {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling for anchor links */
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    min-height: 100vh; /* Ensures each section takes up at least the height of the screen */
+}
+
+nav ul li a:hover {
+    color: #f4f4f4; /* Change color when hovering over the links */
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+}
